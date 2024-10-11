@@ -10,7 +10,7 @@
     <p>Author: {{ post.author }}</p>
     <p>Published on: {{ post.created_at }}</p>
 
-    <h2>Comments</h2>
+    <h2>Comments ({{ comment_count }})</h2>
     <ul>
         {% for comment in comments %}
             <li>
